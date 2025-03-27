@@ -35,3 +35,10 @@ nav a:active
     color: black;
     font-style:oblique;
 }
+
+  #progressbar .ui-progressbar-value {
+    background-color: #ccc;
+  }
+
+  #draggable, #draggable2 { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+  #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
