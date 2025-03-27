@@ -6,6 +6,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/Mystyle.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -41,21 +46,37 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="javascriptpg.html">JavaScript Page</a>
-                  </li>
-
+                </li>
                 </ul>
-                <!--<form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>!-->
-              </div>
+            </div>
             </div>
         </nav>
-        <div class="row">
-        <div class="col border border-dark">Games I like to play:<br> Call of duty<br>Apex legends<br>Overwatch<br>Demonologist<br>Horizon: Zero dawn<br>Blade and sorcery<br>Beat saber<br>Phasmophobia</div>
-        <div class="col border border-dark">My setup:<br> Hyper X full desk mousepad<br>2 LG Moniters<br> cyberpower keyboard<br> Respawn gaming chair<br> Cyberpower mouse<br>PC:<br> Cyberpower case<br> Nividia 3060 ti<br> 12th-gen 9core i-7<br> 4 RGB fans<br> 32 Gb of ram<br> 5tb of storage<br> Extra setup items:<br> 2 extra keyboards<br> 2 extra mice<br> 2 extra headsets<br> 1060 graphics card</div>
-        </div>
     </div>
-    <script src="js/bootstrap.bundle.js"> </script>
+    
+    <div class="row">
+    <div class="col border border-dark">
+        <!--Progress bar-->
+    <div id="progressbar"></div>
+    <button id="numButton">Random Value - Determinate</button>
+    <button id="falseButton">Indeterminate</button>
+    <button id="colorButton">Random Color</button>
+    <br> <br><br>
+
+    <!--Draggable boxes-->
+    <div id="draggable" class="ui-widget-content">
+        <p>I revert when I'm dropped</p>
+      </div>
+       
+      <div id="draggable2" class="ui-widget-content">
+        <p>I revert when I'm not dropped</p>
+      </div>
+       
+      <div id="droppable" class="ui-widget-header">
+        <p>Drop me here</p>
+      </div>
+    </div>
+    </div>
+    
+    
 </body>
 </html>

@@ -1,0 +1,44 @@
+h1
+{
+    font-size: 2.75em;
+}
+
+nav li{
+    display:inline;
+    list-style-type: none;
+    padding-right: 40px;
+    font-style:oblique;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+nav a:link
+{
+    color: crimson;
+    text-decoration: none;
+    font-style:oblique;
+}
+nav a:visited
+{
+    color:crimson;
+    font-style:oblique;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+    font-style:oblique;
+}
+
+nav a:active
+{
+    color: black;
+    font-style:oblique;
+}
+
+  #progressbar .ui-progressbar-value {
+    background-color: #ccc;
+  }
+
+  #draggable, #draggable2 { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+  #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
